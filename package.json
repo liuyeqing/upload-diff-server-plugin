@@ -1,0 +1,19 @@
+{
+  "name": "upload-diff-server-plugin",
+  "version": "1.0.5",
+  "description": "打包完成后，自动把index.html文件复制到D:/serve1文件夹中；bundle.js复制到D:/assetsServer文件夹中",
+  "author": "liuyeqing",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  }
+}
